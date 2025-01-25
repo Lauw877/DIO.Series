@@ -1,0 +1,139 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNuvGBfzgixYJQekuh5j0Db",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Lauw877/DIO.Series/blob/master/Python_List_Practice\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pEJ86HFuQ1n2",
+        "outputId": "4527b3c4-9cd7-4b56-df56-22114690d6d5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Toyota', 'Subaru', 'BMW', 'Audi']\n"
+          ]
+        }
+      ],
+      "source": [
+        "cars = ['BMW', 'Audi', 'Toyota', 'Subaru']\n",
+        "cars.sort(reverse= True)\n",
+        "print(cars)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bicycles =['trek', 'cannondale', 'redline', 'specialized']\n",
+        "message = f\"My bicyble was a {bicycles[0].title()}\"\n",
+        "print(message)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yxjmJsabWjz-",
+        "outputId": "5cb9ce37-689d-4225-ec2e-8a27074a632b"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My bicyble was a Trek\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "names = ['Marie', 'Chantal', 'Jacqueline', 'Jebb', 'Benmby', 'Marie Georges']\n",
+        "names.insert(3,'Louise')\n",
+        "print(names)\n",
+        "print(names[0])\n",
+        "print(names[3])\n",
+        "message = f\"{names[2]} est ma mere\"\n",
+        "print(message)\n",
+        "names[0] = \"Joseph\"\n",
+        "print(names)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BSVxQutnY6-j",
+        "outputId": "4b6bac80-1bad-4917-a830-6b644ea5c10d"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Marie', 'Chantal', 'Jacqueline', 'Louise', 'Jebb', 'Benmby', 'Marie Georges']\n",
+            "Marie\n",
+            "Louise\n",
+            "Jacqueline est ma mere\n",
+            "['Joseph', 'Chantal', 'Jacqueline', 'Louise', 'Jebb', 'Benmby', 'Marie Georges']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "names.append(\"Presley\")\n",
+        "print(names)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "chLwXSmEcJPA",
+        "outputId": "fc21bb92-5319-4b82-8211-893f3b6ce68b"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Joseph', 'Chantal', 'Jacqueline', 'Louise', 'Jebb', 'Benmby', 'Marie Georges', 'Presley']\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
